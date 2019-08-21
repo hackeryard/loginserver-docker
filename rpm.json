@@ -1,0 +1,26 @@
+{
+    "extensions": {
+        "enabled": [
+            "python_venv",
+            "blocks"
+        ]
+    },
+    "core": {
+        "group": "Application/System",
+        "license": "MIT",
+        "name": "login-suite",
+        "summary": "provide login service for cmdb",
+        "version": "0.0.1",
+	"source": "/root/ex/paas/paas/loginserver/login/"
+    },
+    "python_venv": {
+        "name": "venv",
+        "path": "/venvs"
+    },
+    "blocks": {
+        "desc": [
+            "some long package description",
+            "each array element is a new line"
+        ]
+    }
+}

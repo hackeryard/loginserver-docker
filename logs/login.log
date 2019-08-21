@@ -1,0 +1,379 @@
+ERROR [2019-04-20 10:21:09] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 21534 140273690801920 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 10:22:52] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 21534 140273776731904 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 10:23:05] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 21534 140273675441920 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:07:30] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572866303744 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:08:13] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572866303744 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:09:15] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572840916736 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:09:24] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572840916736 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:09:35] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572840916736 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:10:33] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572840916736 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:10:46] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 32350 140572866303744 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 11:24:54] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 34249 140625043687168 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 61, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /oauth2/v4/token?code=4%2FMgHQJgKD9YP97DstKDxIty5zHDv2DqrxEwgNmYA2a6qFVZ_0xes2HZXEzA48pHK2uY7JbNRWrVrOnhu3nuRxVjU&client_secret=_HEZfhHVxK0Sv-m0p6wQSJvN&grant_type=authorization_code&client_id=936854828689-8v0eqlpmb2r3es3d72khcegks18b7k4f.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fbking.com%3A8003%2F (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe5d0ad7110>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+ERROR [2019-04-20 12:03:56] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 43252 139970478417664 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 62, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+ERROR [2019-04-20 12:06:01] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 43252 139970579400448 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 62, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /oauth2/v4/token?code=4%2FMgEC1zwANWvLMquU8lp3HVRZkxpVu1FWXJZM1MeIlvb1FPopqpOT9yo2Zzz20oSDB1EhEE_chfpXsW1E5EeAA7A&client_secret=_HEZfhHVxK0Sv-m0p6wQSJvN&grant_type=authorization_code&client_id=936854828689-8v0eqlpmb2r3es3d72khcegks18b7k4f.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fbking.com%3A8003%2F (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4d6b8d4d90>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+ERROR [2019-04-20 12:08:37] /root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py 55 authenticate 43252 139970478417664 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/backends.py", line 26, in authenticate
+    access_token = get_access_token(code)
+  File "/root/ex/paas/pass/login/ee_official_login/oauth/google/utils.py", line 62, in get_access_token
+    resp = requests.post(url=google_setting.ACCESS_TOKEN_URL, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /oauth2/v4/token?code=4%2FMgEM-AosZ2FMxwTs46fUzn-Jt-FA2V7DRwtYzwvjUmFUv82iSGB8wo3Qwxxe1tXi6AyXRXZMfrl-KmzdVCYU6EQ&client_secret=_HEZfhHVxK0Sv-m0p6wQSJvN&grant_type=authorization_code&client_id=936854828689-8v0eqlpmb2r3es3d72khcegks18b7k4f.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fbking.com%3A8003%2F (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4d6a2241d0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+ERROR [2019-04-20 12:56:30] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 70 get_access_token 53430 140290943801088 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'wfPenqBK4sQyXaksDEG6rX_I54hIcJfz_b6J6Oduayc.g6d9w1J_ddr1dPZC2abQNrFA5UBx0s3YAAVMCQUzkjc', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 13:19:52] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 71 get_access_token 57832 139911244019456 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'kjcWvUSmtLMViJ11yRPMkMrgCPmHRH8mlmSScQktU6E.BW1qVL9bRpvHYVzRUKSNVsBJMOUYtz_mfYOSWldX4QE', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 14:06:16] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 71 get_access_token 57832 139911232194304 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'abN-qiaXQMslv0fi6ZLlRXthWkrx4UONhLI9vAZWFnU.ceD0FsEVPjzFG6z8b9UDrC3OePYEVMfFW6hR0PpzyCY', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 14:16:58] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 75 get_access_token 68563 140133277988608 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'xtk6HBDmPeACpJZE0eRv554IwX9U7iwsjsqItjFamNo.DyLjbmoBphv6Jd7uE0ac8BuRqsAr4SFHnna03RB0t8w', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 14:19:37] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 77 get_access_token 69072 140634677573376 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'KtQVPdt4ZBABFTrLGUrrAjYYkya3NKf2AVo7RawfBoY.bWN4VE5GBjCURDfQ41-txfHahHPTKpo7S-kIhvk_Nf0', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 14:21:31] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 77 get_access_token 69433 140513167365888 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'RRTHffjAGCl1PQZUx3IjVclAcjbCuqRRBit-xpvRPgQ.H4Bqg44u_RZ2cWPnPNvWlHY7c4hkA4VmjEm5b6DH6Rc', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 401, response_content: {"error":"invalid_client","error_description":"Client authentication failed (e.g., unknown client, n 
+
+ERROR [2019-04-20 15:05:10] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 77 get_access_token 77417 140134669739776 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'CtvafCsBQ65GrMJWAhtGzYA3bclHsOXjag_fpjBKdLk.M2nR1-q0NO1tiz3wmkCr_piht9un-aXeRQOIR4hLCdU', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 401, response_content: {"error":"invalid_client","error_description":"Client authentication failed (e.g., unknown client, n 
+
+ERROR [2019-04-20 15:06:57] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 77 get_access_token 78055 140153092962048 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'Z4aq6qMEanR_mtbyrW6IYKPfzPDAshnSrG_E19VI88I.-khIrvfKqLsP9VTxQfJad3uhe7sEQfC-mx3Lghe4Uhs', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-20 15:33:04] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/utils.py 77 get_access_token 82895 139842763486976 
+ 	 http enterprise request error! type: POST, url: http://192.168.48.1:4444/oauth2/token, data: {u'code': u'f2YYPD8LxMU-Jm2KlImoN9SODKSMSEneX8ZHqYUdz2s.jTUvzCKw_f6SltQcxfF0rkEFxQJijLDiG3QAQv1ZGNo', u'client_secret': 'test-secret', u'grant_type': u'authorization_code', u'client_id': 'test-client', u'redirect_uri': <SimpleLazyObject: 'http://bking.localhost:8003/'>}, response_status_code: 400, response_content: {"error":"invalid_request","error_description":"The request is missing a required parameter, include 
+
+ERROR [2019-04-21 14:15:48] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514294400768 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:15:55] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514294400768 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:16:31] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514294400768 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:17:29] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514207135488 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:20:27] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514207135488 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:21:44] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514207135488 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:27:56] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114557 140514207135488 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:29:08] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114863 139867752158976 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:49:30] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114863 139867752158976 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
+ERROR [2019-04-21 14:56:02] /root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py 55 authenticate 114863 139867752158976 
+ 	 Google login backend validation error! 
+Traceback (most recent call last):
+  File "/root/ex/paas/pass/loginserver/login/ee_official_login/oauth/github/backends.py", line 42, in authenticate
+    user = user_model.objects.create_user(username)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 49, in create_user
+    **extra_fields)
+  File "/root/ex/paas/pass/loginserver/login/bkaccount/manager.py", line 35, in _create_user
+    raise ValueError("please fill in username")
+ValueError: please fill in username
